@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
+
+@font-face {
+   font-family: "Larsseit";
+   src: url("../fonts/Larsseit.woff2") format("woff2"), url("../fonts/Larsseit.woff") format("woff");
+   font-display: swap;
+   font-weight: 400;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "Larsseit";
+   src: url("../fonts/Larsseit-Medium.woff2") format("woff2"), url("../fonts/Larsseit-Medium.woff") format("woff");
+   font-display: swap;
+   font-weight: 500;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "Larsseit";
+   src: url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff") format("woff");
+   font-display: swap;
+   font-weight: 700;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Lato';
+   src: url("../fonts/Lato-Regular.woff2") format('woff2'), url("../fonts/Lato-Regular.woff") format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Lato';
+   src: url("../fonts/Lato-Bold.woff2") format('woff2'), url("../fonts/Lato-Bold.woff") format('woff');
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Lato';
+   src: url("../fonts/Lato-Black.woff2") format('woff2'), url("../fonts/Lato-Black.woff") format('woff');
+   font-weight: 900;
+   font-style: normal;
+   font-display: swap;
+}
+/* header */
+h1{
+   font-family:"Lato";
+   font-weight: bold;
+}
+
+/* main */
+.scroll {
+   font-family: "Lato";
+   font-weight: 500;
+   color: grey;
+}
+h3{
+   font-family: "Roboto";
+   font-weight: 500;
+}
+#mountaingoverla, 
+#mountainbrebeneskyl, 
+#mountainpopivan, 
+#mountainpetros, 
+#mountaingutintomnatik{
+   color: darkgreen;
+}
+.goverla p{
+   color: blueviolet;
+   font-family: "Lato";
+   font-weight: 400;
+}
+.brebeneskyl p{
+   color: blue;
+   font-family: "Lato";
+   font-weight: 500;
+}
+.popivan p{
+   color: chocolate;
+   font-family: "Lato";
+   font-weight: 900;
+}
+.petros p{
+   color: orangered;
+   font-family: "Roboto";
+   font-weight: 500;
+}
+.gutintomnatik p{
+   color: darkcyan;
+   font-family: "Roboto";
+   font-weight: 500;
+}
+/* footer */
+p {
+   color: cadetblue;
+   font-family: "Roboto";
+   font-weight: 500;
+}
